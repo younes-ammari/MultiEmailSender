@@ -7,6 +7,7 @@ i used yagmail to send emails and tkinter in the user interface*
 
  
  
+ 
 ![screen image](https://user-images.githubusercontent.com/72352932/111913548-f5cfbd00-8a6e-11eb-8c05-3740eb78b25c.png)
 
 
