@@ -1,4 +1,3 @@
-from tkinter import scrolledtext
 from tkinter import *
 import yagmail
 
@@ -127,32 +126,27 @@ box.place(x=660, y=58)
 
 #Content
 lbl_content = Label(win, text=' Content :', fg=fg_win, bg=bg, font=font_labels).place(x=7, y=91)
-content_text = Text(win, height= 10, width=60, highlightbackground='red', bg=bg, fg=fg_entry, relief='solid', insertbackground='red', 
-font='arial 16', pady=3, padx=5, undo=True)
+content_text = Text(win, height= 10, width=60, highlightbackground='red', bg=bg, fg=fg_entry, relief='solid', insertbackground='red', font='arial 16', pady=3, padx=5, undo=True)
 content_text.place(x=10, y=120)
 
 #Emails
 lbl_email = Label(win, text='Put Your Emails Here (text box):', fg=fg_win, bg=bg, font=font_labels)
 lbl_email.place(x=7, y=378)
 
-emails = Text(win, height= 7, width=35, bg=bg_mail, fg=fg_mail, font='arial 11', insertbackground='red',
- relief='solid' , highlightbackground='red', pady=3, padx=5, undo=True)
+emails = Text(win, height= 7, width=35, bg=bg_mail, fg=fg_mail, font='arial 11', insertbackground='red', relief='solid' , highlightbackground='red', pady=3, padx=5, undo=True)
 emails.place(x=10, y=408)
 
 #Status
 lbl_status = Label(win, text='Email Status :', fg=fg_win, bg=bg, font=font_labels).place(x=320, y=378)
 
-status = Text(win, height= 7, width=35, bg=bg, fg=fg_mail, relief='solid', 
-xscrollcommand=True, font='arial 11', pady=3, padx=5, state='disabled', undo=True)
+status = Text(win, height= 7, width=35, bg=bg, fg=fg_mail, relief='solid', xscrollcommand=True, font='arial 11', pady=3, padx=5, state='disabled', undo=True)
 status.place(x=320, y=408)
 
 #Buttons
-send = Button(win, text='SEND', fg='white', bg=bg, relief='solid', font='arial 14', 
-height= 2, width=7, command=send_emails, activebackground =bg)
+send = Button(win, text='SEND', fg='white', bg=bg, relief='solid', font='arial 14', height= 2, width=7, command=send_emails, activebackground =bg)
 send.place(x=620, y=408)
 
-exit = Button(win, text='EXIT', fg='white', bg='red', relief='solid', font='arial 14',
- command=win.destroy, height= 2, width=7, activebackground ='red')
+exit = Button(win, text='EXIT', fg='white', bg='red', relief='solid', font='arial 14', command=win.destroy, height= 2, width=7, activebackground ='red')
 exit.place(x=620, y=474)
 
 #credit
