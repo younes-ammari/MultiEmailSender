@@ -1,5 +1,5 @@
-# MultEmailSender
-**MultEmailSender** is a program that allows user to send email to mult users with one click.
+# MultiEmailSender
+**MultiEmailSender** is a program that allows user to send email to mult users with one click.
 
 the used programming language was **'PYTHON'** .
 
